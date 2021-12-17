@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  	<ThingDef ParentName="BuildingBase">
+		<defName>ESCP_DwemerSphereRBase</defName>
+		<thingClass>VFE.Mechanoids.Buildings.Building_BedMachine</thingClass>
+		<label>Dwemer Sphere (ranged) maintance port</label>
+		<description>A maintance port for assembling and recharging dwemer spheres.</description>
+		<graphicData>
+			<texPath>Buildings/DwemerSphereChargingStation</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.5,0.3,0.7)</volume>
+				<offset>(0,0,-0.15)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.234375,0,0.515625,0.984375)</rect>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<passability>Standable</passability>
+		<blockWind>false</blockWind>
+		<rotatable>false</rotatable>
+		<fillPercent>0.1</fillPercent>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<statBases>
+			<WorkToBuild>1000</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>6</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Small</destroySound>
+			<bed_humanlike>false</bed_humanlike>
+			<bed_showSleeperBody>True</bed_showSleeperBody>
+			<sowTag>SupportPlantsOnly</sowTag>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+			<ai_chillDestination>false</ai_chillDestination>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		</building>
+		<costList>
+			<Plasteel>65</Plasteel>
+			<VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="VFE.Mechanoids.CompProperties_MachineChargingStation">
+				<pawnToSpawn>ESCP_DwemerSphereRanged</pawnToSpawn>
+				<allowedWorkTypes>
+				</allowedWorkTypes>
+				<extraChargingPower>1200</extraChargingPower>
+				<spawnWithWeapon>ESCP_DwemerSphereCrossbow</spawnWithWeapon>
+				<hoursToRecharge>48</hoursToRecharge>
+				<showSetArea>false</showSetArea>
+			</li>
+		</comps>
+		<designationCategory>VFE_Factory</designationCategory>
+		<researchPrerequisites>
+			<li>VFE_AdvancedDroneAssembly</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	</ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+		<defName>ESCP_DwemerSphereMBase</defName>
+		<thingClass>VFE.Mechanoids.Buildings.Building_BedMachine</thingClass>
+		<label>Dwemer Sphere (melee) maintance port</label>
+		<description>A maintance port for assembling and recharging dwemer spheres.</description>
+		<graphicData>
+			<texPath>Buildings/DwemerSphereChargingStation</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.5,0.3,0.7)</volume>
+				<offset>(0,0,-0.15)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.234375,0,0.515625,0.984375)</rect>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<passability>Standable</passability>
+		<blockWind>false</blockWind>
+		<rotatable>false</rotatable>
+		<fillPercent>0.1</fillPercent>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<statBases>
+			<WorkToBuild>1000</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>6</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Small</destroySound>
+			<bed_humanlike>false</bed_humanlike>
+			<bed_showSleeperBody>True</bed_showSleeperBody>
+			<sowTag>SupportPlantsOnly</sowTag>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+			<ai_chillDestination>false</ai_chillDestination>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		</building>
+		<costList>
+			<Plasteel>65</Plasteel>
+			<VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="VFE.Mechanoids.CompProperties_MachineChargingStation">
+				<pawnToSpawn>ESCP_DwemerSphereMelee</pawnToSpawn>
+				<allowedWorkTypes>
+				</allowedWorkTypes>
+				<extraChargingPower>1200</extraChargingPower>
+				<spawnWithWeapon>ESCP_DwemerSphereBlade</spawnWithWeapon>
+				<hoursToRecharge>48</hoursToRecharge>
+				<showSetArea>false</showSetArea>
+			</li>
+		</comps>
+		<designationCategory>VFE_Factory</designationCategory>
+		<researchPrerequisites>
+			<li>VFE_AdvancedDroneAssembly</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	</ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>ESCP_DwemerSpiderBase</defName>
+    <thingClass>VFE.Mechanoids.Buildings.Building_BedMachine</thingClass>
+    <label>Dwemer sphere maintance port</label>
+    <description>A maintance port for assembling and recharging dwemer spiders.</description>
+    <graphicData>
+      <texPath>Buildings/DwemerSphereChargingStation</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.5,0.3,0.7)</volume>
+        <offset>(0,0,-0.15)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.234375,0,0.515625,0.984375)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Standable</passability>
+    <blockWind>false</blockWind>
+    <rotatable>false</rotatable>
+    <fillPercent>0.1</fillPercent>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <statBases>
+      <WorkToBuild>1000</WorkToBuild>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>6</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+      <bed_humanlike>false</bed_humanlike>
+      <bed_showSleeperBody>True</bed_showSleeperBody>
+      <sowTag>SupportPlantsOnly</sowTag>
+      <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+      <ai_chillDestination>false</ai_chillDestination>
+      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+    </building>
+    <costList>
+      <Steel>45</Steel>
+	  <Plasteel>20</Plasteel>
+      <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+	  <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>200</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+	  <li Class="VFE.Mechanoids.CompProperties_MachineChargingStation">
+		<pawnToSpawn>ESCP_DwemerSpider</pawnToSpawn>
+		<allowedWorkTypes>
+			<li>Hauling</li>
+			<li>Construction</li>
+		</allowedWorkTypes>
+		<extraChargingPower>1600</extraChargingPower>
+		<hoursToRecharge>6</hoursToRecharge>
+	  </li>
+    </comps>
+    <designationCategory>VFE_Factory</designationCategory>
+    <researchPrerequisites>
+      <li>VFE_BasicDroneAssembly</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+  </ThingDef>
+</Defs>

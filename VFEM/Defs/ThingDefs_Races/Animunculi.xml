@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BaseVFEMachine">
+		<defName>ESCP_DwemerSphereRanged</defName>
+		<label>Dwemer Sphere (ranged)</label>
+		<description>Common combat animunculi armed with a blade and a crossbow.</description>
+		<statBases>
+			<MoveSpeed>6</MoveSpeed>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.24</ArmorRating_Sharp>
+			<PsychicSensitivity>0.25</PsychicSensitivity>
+			<Mass>70</Mass>
+		</statBases>
+		<tools>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>16.0</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			</li>
+		</tools>
+		<race>
+			<intelligence>ToolUser</intelligence>
+			<thinkTreeMain>VFE_Mechanoids_Raider</thinkTreeMain>
+			<thinkTreeConstant>VFE_Mechanoids_Machine_RiddableConstant</thinkTreeConstant>
+			<body>Lancer</body>
+			<baseBodySize>1.5</baseBodySize>
+			<baseHealthScale>4</baseHealthScale>
+			<lifeStageAges>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>0</minAge>
+					<soundWounded>VFE_Pawn_HandmadeMech_Wounded</soundWounded>
+					<soundDeath>VFE_Pawn_HandmadeMech_Death</soundDeath>
+					<soundCall>VFE_Pawn_HandmadeMech_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundCallIntervalRange>3000~8000</soundCallIntervalRange>
+			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+		</race>
+		<butcherProducts>
+			<VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Plasteel>65</Plasteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</butcherProducts>
+		<comps>
+			<li Class="VFE.Mechanoids.CompProperties_Machine">
+				<violent>true</violent>
+				<hoursActive>168</hoursActive>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="VFE.Mechanoids.MechanoidExtension">
+				<isCaravanRiddable>true</isCaravanRiddable>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="BaseMechanoidKind">
+		<defName>ESCP_DwemerSphereRanged</defName>
+		<label>dwemer sphere</label>
+		<race>ESCP_DwemerSphereRanged</race>
+		<combatPower>99999</combatPower>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Automatons/DwemerSphereR/DwemerSphereR</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.6</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<ThingDef ParentName="BaseVFEMachine">
+		<defName>ESCP_DwemerSphereMelee</defName>
+		<label>Dwemer Sphere (melee)</label>
+		<description>Common combat animunculi armed with a blade and a shield.</description>
+		<statBases>
+			<MoveSpeed>6</MoveSpeed>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.24</ArmorRating_Sharp>
+			<PsychicSensitivity>0.25</PsychicSensitivity>
+			<Mass>70</Mass>
+		</statBases>
+		<tools>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>16.0</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			</li>
+		</tools>
+		<race>
+			<intelligence>ToolUser</intelligence>
+			<thinkTreeMain>VFE_Mechanoids_Raider</thinkTreeMain>
+			<thinkTreeConstant>VFE_Mechanoids_Machine_RiddableConstant</thinkTreeConstant>
+			<body>Lancer</body>
+			<baseBodySize>1.5</baseBodySize>
+			<baseHealthScale>4</baseHealthScale>
+			<lifeStageAges>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>0</minAge>
+					<soundWounded>VFE_Pawn_HandmadeMech_Wounded</soundWounded>
+					<soundDeath>VFE_Pawn_HandmadeMech_Death</soundDeath>
+					<soundCall>VFE_Pawn_HandmadeMech_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundCallIntervalRange>3000~8000</soundCallIntervalRange>
+			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+		</race>
+		<butcherProducts>
+			<VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Plasteel>65</Plasteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</butcherProducts>
+		<comps>
+			<li Class="VFE.Mechanoids.CompProperties_Machine">
+				<violent>true</violent>
+				<hoursActive>168</hoursActive>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="VFE.Mechanoids.MechanoidExtension">
+				<isCaravanRiddable>true</isCaravanRiddable>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="BaseMechanoidKind">
+		<defName>ESCP_DwemerSphereMelee</defName>
+		<label>dwemer sphere</label>
+		<race>ESCP_DwemerSphereMelee</race>
+		<combatPower>99999</combatPower>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Automatons/DwemerSphereM/DwemerSphereM</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.6</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<ThingDef ParentName="BaseVFEMachine">
+		<defName>ESCP_DwemerSpider</defName>
+		<label>Dwemer Spider</label>
+		<description>Dwemer spider, commonly used for construction and repair.</description>
+		<statBases>
+			<MoveSpeed>4</MoveSpeed>
+			<ArmorRating_Blunt>0.22</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.22</ArmorRating_Sharp>
+			<PsychicSensitivity>0.25</PsychicSensitivity>
+		</statBases>
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			</li>
+		</tools>
+		<race>
+			<intelligence>ToolUser</intelligence>
+			<thinkTreeMain>VFE_Mechanoids_Machine</thinkTreeMain>
+			<body>MechanicalCentipede</body>
+			<baseBodySize>0.5</baseBodySize>
+			<baseHealthScale>1</baseHealthScale>
+			<lifeStageAges>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>0</minAge>
+					<soundWounded>VFE_Pawn_HandmadeMech_Wounded</soundWounded>
+					<soundDeath>VFE_Pawn_HandmadeMech_Death</soundDeath>
+					<soundCall>VFE_Pawn_HandmadeMech_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundCallIntervalRange>1000~2000</soundCallIntervalRange>
+			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+		</race>
+		<butcherProducts>
+			<VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Steel>25</Steel>
+		</butcherProducts>
+		<comps>
+			<li Class="VFE.Mechanoids.CompProperties_Machine">
+				<hoursActive>72</hoursActive>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<PawnKindDef ParentName="BaseMechanoidKind">
+		<defName>ESCP_DwemerSpider</defName>
+		<label>dwemer spider</label>
+		<race>ESCP_DwemerSpider</race>
+		<combatPower>99999</combatPower>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Automatons/DwemerSpider/DwemerSpider</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+</Defs>
