@@ -46,10 +46,10 @@
 			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 		</building>
 		<costList>
-			<Plasteel>65</Plasteel>
-			<VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
-			<ComponentIndustrial>2</ComponentIndustrial>
-			<ComponentSpacer>2</ComponentSpacer>
+			<ESCP_DwemerMetal>65</ESCP_DwemerMetal>
+			<ESCP_DwemerControlCube>2</ESCP_DwemerControlCube>
+			<ESCP_DwemerComponent>2</ESCP_DwemerComponent>
+			<ESCP_DwemerDynamoCore>2</ESCP_DwemerDynamoCore>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<comps>
@@ -121,10 +121,10 @@
 			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 		</building>
 		<costList>
-			<Plasteel>65</Plasteel>
-			<VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
-			<ComponentIndustrial>2</ComponentIndustrial>
-			<ComponentSpacer>2</ComponentSpacer>
+			<ESCP_DwemerMetal>65</ESCP_DwemerMetal>
+			<ESCP_DwemerControlCube>2</ESCP_DwemerControlCube>
+			<ESCP_DwemerComponent>2</ESCP_DwemerComponent>
+			<ESCP_DwemerDynamoCore>2</ESCP_DwemerDynamoCore>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<comps>
@@ -196,10 +196,9 @@
       <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
     </building>
     <costList>
-      <Steel>45</Steel>
-	  <Plasteel>20</Plasteel>
-      <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
-	  <ComponentSpacer>1</ComponentSpacer>
+	  <ESCP_DwemerMetal>20</ESCP_DwemerMetal>
+      <ESCP_DwemerControlCube>1</ESCP_DwemerControlCube>
+	  <ESCP_DwemerDynamoCore>1</ESCP_DwemerDynamoCore>
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <comps>

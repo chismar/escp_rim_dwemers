@@ -38,9 +38,8 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
-			<Steel>350</Steel>
-			<DwemerMetal>40</DwemerMetal>
-			<ComponentIndustrial>6</ComponentIndustrial>
+			<ESCP_DwemerMetal>40</ESCP_DwemerMetal>
+			<ESCP_DwemerComponent>6</ESCP_DwemerComponent>
 		</costList>
 		<verbs>
 			<li>
@@ -105,9 +104,8 @@
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<costList>
-			<Steel>350</Steel>
-			<DwemerMetal>40</DwemerMetal>
-			<ComponentIndustrial>6</ComponentIndustrial>
+			<ESCP_DwemerMetal>40</ESCP_DwemerMetal>
+			<ESCP_DwemerComponent>3</ESCP_DwemerComponent>
 		</costList>
 		<weaponTags>
 			<li>DwemerAutomatonMeleeWeapon</li>

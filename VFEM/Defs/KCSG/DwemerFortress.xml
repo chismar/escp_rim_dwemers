@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <KCSG.StructureLayoutDef>
+        <defName>ESCPTestRoom</defName>
+        <layouts>
+            <li>
+                <li>Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Door_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal</li>
+                <li>Wall_ESCP_DwemerMetal,Plant_Brambles,Plant_Grass,Plant_Grass,Plant_TreeOak,.,Plant_Dandelion,.,Plant_Grass,.,Plant_Grass,Wall_ESCP_DwemerMetal</li>
+                <li>Wall_ESCP_DwemerMetal,.,Plant_Dandelion,Plant_Grass,.,Plant_Grass,.,.,Plant_Grass,.,Plant_Grass,Wall_ESCP_DwemerMetal</li>
+                <li>Wall_ESCP_DwemerMetal,Plant_TallGrass,Plant_Grass,.,Plant_Grass,Plant_TallGrass,.,Plant_Grass,Plant_Grass,.,Plant_TreeOak,Wall_ESCP_DwemerMetal</li>
+                <li>Wall_ESCP_DwemerMetal,.,Plant_Grass,Plant_TallGrass,Plant_Grass,.,Plant_Grass,Plant_TallGrass,Plant_Grass,.,.,Wall_ESCP_DwemerMetal</li>
+                <li>Wall_ESCP_DwemerMetal,.,Plant_Bush,.,.,.,Plant_Grass,.,.,Plant_Grass,Plant_Grass,Wall_ESCP_DwemerMetal</li>
+                <li>Wall_ESCP_DwemerMetal,.,Plant_Grass,.,.,.,Plant_Grass,Plant_Grass,.,Plant_TreeOak,.,Wall_ESCP_DwemerMetal</li>
+                <li>Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal</li>
+            </li>
+        </layouts>
+    </KCSG.StructureLayoutDef>
+</Defs>
