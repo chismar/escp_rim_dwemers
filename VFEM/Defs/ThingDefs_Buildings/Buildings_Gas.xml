@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>ESCP_DwemerGasPipe</defName>
+		<label>gas pipe</label>
+		<description>A pipe that transmits helixien gas.</description>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Buildings/DwemerSteamGasPipe_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Custom6</li>
+			</linkFlags>
+			<damageData>
+				<rect>(0,0.35,1,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Buildings/DwemerSteamGasPipe_MenuIcon</uiIconPath>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<blueprintGraphicData>
+				<texPath>Buildings/DwemerSteamGasPipe_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<altitudeLayer>SmallWire</altitudeLayer>
+		<passability>Standable</passability>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>35</WorkToBuild>
+			<Flammability>0.7</Flammability>
+			<Beauty>-2</Beauty>
+		</statBases>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<costList>
+			<ESCP_DwemerMetal>1</ESCP_DwemerMetal>
+		</costList>
+		<comps>
+			<li Class="GasNetwork.CompProperties_Gas">
+				<compClass>GasNetwork.CompGas</compClass>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>GasNetwork.PlaceWorker_Pipe</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Power</designationCategory>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>VFE_GasExtraction</li>
+		</researchPrerequisites>
+		<clearBuildingArea>false</clearBuildingArea>
+		<designationHotKey>Misc1</designationHotKey>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>ESCP_DwemerGasPipeSub</defName>
+		<label>subterranean gas pipe</label>
+		<description>A pipe that transmits helixien gas. This pipe is hidden from view and is protected from gas explosions. Much more expensive to build than regular pipes</description>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Special/Fluid/VPE_BlankTransmitterAtlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Custom6</li>
+			</linkFlags>
+			<damageData>
+				<rect>(0,0.35,1,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Linked/GasPipe_MenuIcon</uiIconPath>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<blueprintGraphicData>
+				<texPath>Buildings/DwemerSteamGasPipe_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<passability>Standable</passability>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<WorkToBuild>120</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Beauty>0</Beauty>
+		</statBases>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<costList>
+			<ESCP_DwemerMetal>5</ESCP_DwemerMetal>
+		</costList>
+		<comps>
+			<li Class="GasNetwork.CompProperties_Gas">
+				<compClass>GasNetwork.CompGas</compClass>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>GasNetwork.PlaceWorker_Pipe</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Power</designationCategory>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>VFE_GasExtraction</li>
+		</researchPrerequisites>
+		<clearBuildingArea>false</clearBuildingArea>
+		<designationHotKey>Misc1</designationHotKey>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>ESCP_DwemerGasPipeValve</defName>
+		<label>gas pipe valve</label>
+		<description>Switches gas flow on/off.</description>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Buildings/DwemerSteamGasSwitch</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<allowWireConnection>false</allowWireConnection>
+		</building>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToBuild>200</WorkToBuild>
+			<Flammability>0.5</Flammability>
+			<Beauty>-2</Beauty>
+		</statBases>
+		<placingDraggableDimensions>0</placingDraggableDimensions>
+		<costList>
+			<ESCP_DwemerMetal>15</ESCP_DwemerMetal>
+			<ESCP_DwemerComponent>1</ESCP_DwemerComponent>
+		</costList>
+		<comps>
+			<li Class="GasNetwork.CompProperties_Gas">
+				<compClass>GasNetwork.CompGasValve</compClass>
+			</li>
+			<li Class="CompProperties_Flickable">
+				<commandTexture>Things/Special/Fluid/VPE_OverlayBase</commandTexture>
+				<commandLabelKey>Fluffy.GasNetwork.CommandToggleGas.Label</commandLabelKey>
+				<commandDescKey>Fluffy.GasNetwork.CommandToggleGas.Desc</commandDescKey>
+			</li>
+		</comps>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<tickerType>Normal</tickerType>
+		<designationCategory>Power</designationCategory>
+		<constructEffect>ConstructMetal</constructEffect>
+		<designationHotKey>Misc2</designationHotKey>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers/>
+		<researchPrerequisites>
+			<li>VFE_GasExtraction</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>ESCP_DwemerGasTank</defName>
+		<label>gas tank</label>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<description>A large ESCP_DwemerMetal tank for gas storage. Will explode if damaged.</description>
+		<graphicData>
+			<texPath>Buildings/DwemerSteamTank</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<blockWind>true</blockWind>
+		<fillPercent>0.40</fillPercent>
+		<tickerType>Normal</tickerType>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsPower</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>20</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>-15</Beauty>
+		</statBases>
+		<size>(2,2)</size>
+		<costList>
+			<ESCP_DwemerMetal>100</ESCP_DwemerMetal>
+		</costList>
+		<comps>
+			<li Class="GasNetwork.CompProperties_GasStorage">
+				<compClass>GasNetwork.CompGasStorage</compClass>
+				<capacity>1000</capacity>
+			</li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>0</explosiveRadius>
+				<explosiveExpandPerFuel>0.95</explosiveExpandPerFuel>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<destroyThingOnExplosionSize>2</destroyThingOnExplosionSize>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>70~150</wickTicks>
+			</li>
+
+		</comps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<designationCategory>Power</designationCategory>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>VFE_GasExtraction</li>
+		</researchPrerequisites>
+		<designationHotKey>Misc4</designationHotKey>
+		<canOverlapZones>false</canOverlapZones>
+		<placeWorkers/>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>ESCP_DwemerSteamPump</defName>
+		<label>dwemer geothermal steam pump</label>
+		<description>An extractor machine mounted on a hot gas geyser. Self-powered, this machine pumps out valuable gas and needs to be connected to other gas-based utilities using the pipe network.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Buildings/DwemerSteamGasPumpHot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,6)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>150</pathCost>
+		<blockWind>true</blockWind>
+		<fillPercent>1.0</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>2500</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-20</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<canOverlapZones>false</canOverlapZones>
+		<size>(4,4)</size>
+		<costList>
+			<ESCP_DwemerMetal>100</ESCP_DwemerMetal>
+			<ESCP_DwemerComponent>4</ESCP_DwemerComponent>
+		</costList>
+		<placeWorkers>
+      		<li>PlaceWorker_OnSteamGeyser</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="GasNetwork.CompProperties_GasTrader">
+				<compClass>GasNetwork.CompGasTrader</compClass>
+				<gasConsumption>-300</gasConsumption>
+			</li>
+			<li Class="CompProperties_Flickable">
+				<commandTexture>Things/Special/Fluid/VPE_OverlayBase</commandTexture>
+				<commandLabelKey>Fluffy.GasNetwork.CommandToggleGas.Label</commandLabelKey>
+				<commandDescKey>Fluffy.GasNetwork.CommandToggleGas.Desc</commandDescKey>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>6</glowRadius>
+				<glowColor>(90,140,90,0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>GasNetwork.CompGasHeatPusher</compClass>
+				<heatPerSecond>6</heatPerSecond>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Power</designationCategory>
+		<designationHotKey>Misc3</designationHotKey>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>VFE_GasExtraction</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>ESCP_DwemerSteamGenerator</defName>
+		<label>dwemer geothermal steam generator</label>
+		<description>Produces power by consuming geothermal hot steam. Must be connected to a steam pipe network.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Buildings/DwemerSteamGenerator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(1.93,1,1.69)</volume>
+				<offset>(-0.03,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>150</pathCost>
+		<blockWind>true</blockWind>
+		<fillPercent>1.0</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>2500</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-20</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<canOverlapZones>false</canOverlapZones>
+		<size>(2,2)</size>
+		<costList>
+			<ESCP_DwemerMetal>100</ESCP_DwemerMetal>
+			<ESCP_DwemerComponent>3</ESCP_DwemerComponent>
+		</costList>
+		<comps>
+			<li Class="GasNetwork.CompProperties_GasTrader">
+				<compClass>GasNetwork.CompGasTrader</compClass>
+				<gasConsumption>25</gasConsumption>
+			</li>
+			<li Class="CompProperties_Power">
+				<transmitsPower>true</transmitsPower>
+				<compClass>GasNetwork.CompGasPowerPlant</compClass>
+				<basePowerConsumption>-1000</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable">
+				<commandTexture>Things/Special/Fluid/VPE_OverlayBase</commandTexture>
+				<commandLabelKey>Fluffy.GasNetwork.CommandToggleGas.Label</commandLabelKey>
+				<commandDescKey>Fluffy.GasNetwork.CommandToggleGas.Desc</commandDescKey>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>6</glowRadius>
+				<glowColor>(90,140,90,0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>GasNetwork.CompGasHeatPusher</compClass>
+				<heatPerSecond>6</heatPerSecond>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>0</explosiveRadius>
+				<explosiveExpandPerFuel>0.95</explosiveExpandPerFuel>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<destroyThingOnExplosionSize>2</destroyThingOnExplosionSize>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>70~150</wickTicks>
+			</li>
+		</comps>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<designationCategory>Power</designationCategory>
+		<designationHotKey>Misc4</designationHotKey>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>VFE_GasExtraction</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>ESCP_DwemerIndustrialSteamGenerator</defName>
+		<label>dwemer large hot gas generator</label>
+		<description>Produces a large amount of power by consuming hot geothermal gas. Must be connected to a gas pipe network.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Buildings/DwemerIndustrialSteamGenerator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(1.93,1,1.69)</volume>
+				<offset>(-0.03,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>150</pathCost>
+		<blockWind>true</blockWind>
+		<fillPercent>1.0</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>3500</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-20</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<canOverlapZones>false</canOverlapZones>
+		<size>(3,3)</size>
+		<costList>
+			<ESCP_DwemerMetal>180</ESCP_DwemerMetal>
+			<ESCP_DwemerComponent>6</ESCP_DwemerComponent>
+		</costList>
+		<comps>
+			<li Class="GasNetwork.CompProperties_GasTrader">
+				<compClass>GasNetwork.CompGasTrader</compClass>
+				<gasConsumption>75</gasConsumption>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>GasNetwork.CompGasPowerPlant</compClass>
+				<basePowerConsumption>-3600</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Flickable">
+				<commandTexture>Things/Special/Fluid/VPE_OverlayBase</commandTexture>
+				<commandLabelKey>Fluffy.GasNetwork.CommandToggleGas.Label</commandLabelKey>
+				<commandDescKey>Fluffy.GasNetwork.CommandToggleGas.Desc</commandDescKey>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(90,140,90,0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>GasNetwork.CompGasHeatPusher</compClass>
+				<heatPerSecond>12</heatPerSecond>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>0</explosiveRadius>
+				<explosiveExpandPerFuel>0.95</explosiveExpandPerFuel>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<destroyThingOnExplosionSize>2</destroyThingOnExplosionSize>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>70~150</wickTicks>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>Power</designationCategory>
+		<designationHotKey>Misc4</designationHotKey>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>VFE_IndustrialGenerators</li>
+			<li>VFE_GasExtraction</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+	</ThingDef>
+
+
+</Defs>

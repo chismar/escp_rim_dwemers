@@ -1,18 +1,267 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <KCSG.StructureLayoutDef>
-        <defName>ESCPTestRoom</defName>
+        <defName>ESCP_DwemerFortress</defName>
         <layouts>
             <li>
-                <li>Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Door_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal</li>
-                <li>Wall_ESCP_DwemerMetal,Plant_Brambles,Plant_Grass,Plant_Grass,Plant_TreeOak,.,Plant_Dandelion,.,Plant_Grass,.,Plant_Grass,Wall_ESCP_DwemerMetal</li>
-                <li>Wall_ESCP_DwemerMetal,.,Plant_Dandelion,Plant_Grass,.,Plant_Grass,.,.,Plant_Grass,.,Plant_Grass,Wall_ESCP_DwemerMetal</li>
-                <li>Wall_ESCP_DwemerMetal,Plant_TallGrass,Plant_Grass,.,Plant_Grass,Plant_TallGrass,.,Plant_Grass,Plant_Grass,.,Plant_TreeOak,Wall_ESCP_DwemerMetal</li>
-                <li>Wall_ESCP_DwemerMetal,.,Plant_Grass,Plant_TallGrass,Plant_Grass,.,Plant_Grass,Plant_TallGrass,Plant_Grass,.,.,Wall_ESCP_DwemerMetal</li>
-                <li>Wall_ESCP_DwemerMetal,.,Plant_Bush,.,.,.,Plant_Grass,.,.,Plant_Grass,Plant_Grass,Wall_ESCP_DwemerMetal</li>
-                <li>Wall_ESCP_DwemerMetal,.,Plant_Grass,.,.,.,Plant_Grass,Plant_Grass,.,Plant_TreeOak,.,Wall_ESCP_DwemerMetal</li>
-                <li>Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal,Wall_ESCP_DwemerMetal</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerSphereMelee,.,.,ESCP_DwemerSphereRanged,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,Colonist,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerSpider,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerSpider,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerSpider,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Colonist,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+            </li>
+            <li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor</li>
+                <li>.,.,.,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor</li>
+                <li>.,.,.,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor</li>
+                <li>.,.,.,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor</li>
+                <li>.,.,.,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor</li>
+                <li>.,.,.,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor</li>
+                <li>.,.,.,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor</li>
+                <li>.,.,.,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor</li>
+                <li>ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor</li>
+                <li>ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor</li>
+                <li>ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor</li>
+                <li>ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor</li>
+                <li>ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor</li>
+                <li>ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor</li>
+                <li>ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor</li>
+                <li>ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor</li>
+                <li>ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor</li>
+                <li>ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor</li>
+                <li>ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor</li>
+                <li>ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor</li>
+                <li>ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor</li>
+                <li>ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor</li>
+                <li>.,.,.,.,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,.,.,.,.</li>
+                <li>.,.,.,.,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,.,.,.,.</li>
+                <li>.,.,.,.,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,.,.,.,.</li>
+                <li>.,.,.,.,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,ESCP_DwemerFloor,.,.,.,.</li>
+            </li>
+            <li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasFloodLight,.,ESCP_DwemerGasFloodLight,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerGasPipe,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone</li>
+                <li>.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone</li>
+                <li>.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone</li>
+                <li>.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone</li>
+                <li>.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,ESCP_DwemerGasFloodLight,.,.,.,.,VFE_Turret_AutoTesla_ESCP_DwemerMetal,.,.,.,.,.,ESCP_DwemerGasFloodLight,.,.,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone</li>
+                <li>.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,ESCP_DwemerSphereMBase,.,.,ESCP_DwemerSphereRBase,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone</li>
+                <li>.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,ESCP_DwemerSteamGenerator,.,ESCP_DwemerSteamGenerator,.,ESCP_DwemerSteamGenerator,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone</li>
+                <li>.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone</li>
+                <li>ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,Door_ESCP_DwemerMetal,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,Door_ESCP_DwemerMetal,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone</li>
+                <li>ESCP_DwemerWall_BlocksLimestone,.,VPE_GasStove_South,.,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone</li>
+                <li>ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone</li>
+                <li>ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,SteamGeyser,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone</li>
+                <li>ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,ESCP_DwemerGasTank_North,.,ESCP_DwemerGasTank_North,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,DiningChair_ESCP_DwemerMetal_East,HiTechResearchBench_ESCP_DwemerMetal_East,.,ESCP_DwemerWall_BlocksLimestone</li>
+                <li>ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone,.,SimpleResearchBench_ESCP_DwemerMetal_West,DiningChair_ESCP_DwemerMetal_West,.,.,.,.,ESCP_DwemerWall_BlocksLimestone</li>
+                <li>ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,ESCP_DwemerGasPipe,.,ESCP_DwemerGasPipe,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone</li>
+                <li>ESCP_DwemerWall_BlocksLimestone,.,.,.,.,ESCP_DwemerGasFloodLight,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasFloodLight,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerWall_BlocksLimestone</li>
+                <li>ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,ESCP_DwemerGasPipe,ESCP_DwemerWall_BlocksLimestone</li>
+                <li>ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,.,.,Door_ESCP_DwemerMetal,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,ESCP_DwemerGasPipe,ESCP_DwemerWall_BlocksLimestone</li>
+                <li>ESCP_DwemerWall_BlocksLimestone,.,.,DiningChair_ESCP_DwemerMetal_East,Table2x2c_ESCP_DwemerMetal,.,DiningChair_ESCP_DwemerMetal_West,.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,ESCP_DwemerGasSunLamp,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,ESCP_DwemerSpiderBase,.,.,.,ESCP_DwemerWall_BlocksLimestone</li>
+                <li>ESCP_DwemerWall_BlocksLimestone,.,.,DiningChair_ESCP_DwemerMetal_East,.,.,DiningChair_ESCP_DwemerMetal_West,.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,.,.,.,Plant_Potato,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,ESCP_DwemerSpiderBase,.,ESCP_DwemerIndustrialSteamGenerator,.,ESCP_DwemerWall_BlocksLimestone</li>
+                <li>ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,ESCP_DwemerSpiderBase,.,.,.,ESCP_DwemerWall_BlocksLimestone</li>
+                <li>ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,Door_ESCP_DwemerMetal,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,Door_ESCP_DwemerMetal,ESCP_DwemerWall_BlocksLimestone,Door_ESCP_DwemerMetal,ESCP_DwemerWall_BlocksLimestone,Door_ESCP_DwemerMetal,ESCP_DwemerWall_BlocksLimestone,Door_ESCP_DwemerMetal,ESCP_DwemerWall_BlocksLimestone,Door_ESCP_DwemerMetal,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone</li>
+                <li>.,.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,ESCP_DwemerWall_BlocksLimestone,.,ESCP_DwemerWall_BlocksLimestone,.,ESCP_DwemerWall_BlocksLimestone,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.</li>
+                <li>.,.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,ESCP_DwemerWall_BlocksLimestone,.,ESCP_DwemerWall_BlocksLimestone,.,ESCP_DwemerWall_BlocksLimestone,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone,.,.,.,.</li>
+                <li>.,.,.,.,ESCP_DwemerWall_BlocksLimestone,Bed_ESCP_DwemerMetal_South,ESCP_DwemerGasLamp,.,.,.,.,.,ESCP_DwemerWall_BlocksLimestone,Bed_ESCP_DwemerMetal_East,.,ESCP_DwemerWall_BlocksLimestone,Bed_ESCP_DwemerMetal_South,ESCP_DwemerWall_BlocksLimestone,Bed_ESCP_DwemerMetal_South,ESCP_DwemerWall_BlocksLimestone,Bed_ESCP_DwemerMetal_South,ESCP_DwemerWall_BlocksLimestone,.,.,.,ESCP_DwemerGasLamp,Bed_ESCP_DwemerMetal_South,ESCP_DwemerWall_BlocksLimestone,.,.,.,.</li>
+                <li>.,.,.,.,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,ESCP_DwemerWall_BlocksLimestone,.,.,.,.</li>
+            </li>
+            <li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,Door_ESCP_DwemerMetal,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasWallLight_East,.,.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasWallLight_West,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,Door_ESCP_DwemerMetal,.,.,ESCP_DwemerSteamPump,.,.,.,.,.,.,.,.,.,Door_ESCP_DwemerMetal,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,ESCP_DwemerGasWallLight_West</li>
+                <li>.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,ESCP_DwemerGasPipe</li>
+                <li>.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasWallLight_East,.,.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasWallLight_West,.,.,.,.,.,.,.,ESCP_DwemerGasPipe</li>
+                <li>.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,ESCP_DwemerGasPipe</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Door_ESCP_DwemerMetal,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.</li>
+                <li>.,.,.,.,ESCP_DwemerGasWallLight_South,ESCP_DwemerGasWallLight_South,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,.,.,.,.</li>
+                <li>.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.</li>
+                <li>.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.</li>
+                <li>.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,ESCP_DwemerGasPipe,.,.,.,.</li>
+                <li>.,.,.,.,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasWallLight_South,ESCP_DwemerGasPipe,ESCP_DwemerGasWallLight_South,ESCP_DwemerGasPipe,ESCP_DwemerGasWallLight_South,ESCP_DwemerGasPipe,ESCP_DwemerGasWallLight_South,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,ESCP_DwemerGasPipe,.,.,.,.</li>
             </li>
         </layouts>
+        <roofGrid>
+            <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+            <li>.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+            <li>.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+            <li>.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+            <li>.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+            <li>.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+            <li>.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+            <li>.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+            <li>.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+            <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+            <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+            <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+            <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+            <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+            <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+            <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+            <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+            <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+            <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+            <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+            <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+            <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+            <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+            <li>.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.</li>
+            <li>.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.</li>
+            <li>.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.</li>
+            <li>.,.,.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.</li>
+        </roofGrid>
     </KCSG.StructureLayoutDef>
+    <KCSG.SymbolDef>
+        <defName>ESCP_DwemerFloor</defName>
+        <isTerrain>true</isTerrain>
+        <terrain>ESCP_DwemerFloor</terrain>
+    </KCSG.SymbolDef>
+
+    <KCSG.SymbolDef>
+        <defName>ESCP_DwemerGasFloodLight</defName>
+        <thing>ESCP_DwemerGasFloodLight</thing>
+    </KCSG.SymbolDef>
+
+    <KCSG.SymbolDef>
+        <defName>ESCP_DwemerWall_BlocksLimestone</defName>
+        <thing>ESCP_DwemerWall</thing>
+        <stuff>BlocksLimestone</stuff>
+    </KCSG.SymbolDef>
+
+    <KCSG.SymbolDef>
+        <defName>ESCP_DwemerGasPipe</defName>
+        <thing>ESCP_DwemerGasPipe</thing>
+    </KCSG.SymbolDef>
+
+    <KCSG.SymbolDef>
+        <defName>VFE_Turret_AutoTesla_ESCP_DwemerMetal</defName>
+        <thing>VFE_Turret_AutoTesla</thing>
+        <stuff>ESCP_DwemerMetal</stuff>
+    </KCSG.SymbolDef>
+
+    <KCSG.SymbolDef>
+        <defName>ESCP_DwemerSphereMelee</defName>
+        <pawnKindDef>ESCP_DwemerSphereMelee</pawnKindDef>
+    </KCSG.SymbolDef>
+
+    <KCSG.SymbolDef>
+        <defName>ESCP_DwemerSphereMBase</defName>
+        <thing>ESCP_DwemerSphereMBase</thing>
+    </KCSG.SymbolDef>
+
+    <KCSG.SymbolDef>
+        <defName>ESCP_DwemerSphereRanged</defName>
+        <pawnKindDef>ESCP_DwemerSphereRanged</pawnKindDef>
+    </KCSG.SymbolDef>
+
+    <KCSG.SymbolDef>
+        <defName>ESCP_DwemerSphereRBase</defName>
+        <thing>ESCP_DwemerSphereRBase</thing>
+    </KCSG.SymbolDef>
+
+    <KCSG.SymbolDef>
+        <defName>ESCP_DwemerSteamGenerator</defName>
+        <thing>ESCP_DwemerSteamGenerator</thing>
+    </KCSG.SymbolDef>
+
+    <KCSG.SymbolDef>
+        <defName>VPE_GasStove_South</defName>
+        <thing>VPE_GasStove</thing>
+        <rotation>South</rotation>
+    </KCSG.SymbolDef>
+
+    <KCSG.SymbolDef>
+        <defName>ESCP_DwemerGasWallLight_East</defName>
+        <thing>ESCP_DwemerGasWallLight</thing>
+        <rotation>East</rotation>
+    </KCSG.SymbolDef>
+
+    <KCSG.SymbolDef>
+        <defName>ESCP_DwemerGasWallLight_West</defName>
+        <thing>ESCP_DwemerGasWallLight</thing>
+        <rotation>West</rotation>
+    </KCSG.SymbolDef>
+
+    <KCSG.SymbolDef>
+        <defName>ESCP_DwemerSteamPump</defName>
+        <thing>ESCP_DwemerSteamPump</thing>
+    </KCSG.SymbolDef>
+
+    <KCSG.SymbolDef>
+        <defName>ESCP_DwemerGasTank_North</defName>
+        <thing>ESCP_DwemerGasTank</thing>
+        <rotation>North</rotation>
+    </KCSG.SymbolDef>
+
+    <KCSG.SymbolDef>
+        <defName>ESCP_DwemerGasSunLamp</defName>
+        <thing>ESCP_DwemerGasSunLamp</thing>
+    </KCSG.SymbolDef>
+
+    <KCSG.SymbolDef>
+        <defName>ESCP_DwemerSpider</defName>
+        <pawnKindDef>ESCP_DwemerSpider</pawnKindDef>
+    </KCSG.SymbolDef>
+
+    <KCSG.SymbolDef>
+        <defName>ESCP_DwemerSpiderBase</defName>
+        <thing>ESCP_DwemerSpiderBase</thing>
+    </KCSG.SymbolDef>
+
+    <KCSG.SymbolDef>
+        <defName>ESCP_DwemerIndustrialSteamGenerator</defName>
+        <thing>ESCP_DwemerIndustrialSteamGenerator</thing>
+    </KCSG.SymbolDef>
+
+    <KCSG.SymbolDef>
+        <defName>ESCP_DwemerGasWallLight_South</defName>
+        <thing>ESCP_DwemerGasWallLight</thing>
+        <rotation>South</rotation>
+    </KCSG.SymbolDef>
+
+    <KCSG.SymbolDef>
+        <defName>ESCP_DwemerGasLamp</defName>
+        <thing>ESCP_DwemerGasLamp</thing>
+    </KCSG.SymbolDef>
+
+
 </Defs>

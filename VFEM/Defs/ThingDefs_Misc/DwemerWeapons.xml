@@ -165,7 +165,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>ESCP_DwemerAxe</defName>	
+		<defName>ESCP_DwemerAxe</defName>
 		<label>dwemer axe</label>
 		<description>Dwemer axe.</description>
 		<graphicData>
@@ -182,10 +182,10 @@
 			<Mass>1.5</Mass>
 		</statBases>
 		<equippedStatOffsets>
-			<PlantWorkSpeed>0.33</PlantWorkSpeed>		
+			<PlantWorkSpeed>0.33</PlantWorkSpeed>
 		</equippedStatOffsets>
 		<equippedAngleOffset>-65</equippedAngleOffset>
-				<costList>
+		<costList>
 			<ESCP_DwemerMetal>40</ESCP_DwemerMetal>
 		</costList>
 		<recipeMaker>
@@ -198,7 +198,7 @@
 				<Crafting>3</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		<tools>		
+		<tools>
 			<li>
 				<label>handle</label>
 				<capacities>
@@ -213,13 +213,13 @@
 					<li>Cut</li>
 				</capacities>
 				<power>14</power>
-				<armorPenetration>0.25</armorPenetration>				
+				<armorPenetration>0.25</armorPenetration>
 				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
 	</ThingDef>
 
-	
+
 	<!-- Hammer -->
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>ESCP_Dwemer_Warhammer</defName>		<!-- unique -->
@@ -278,7 +278,7 @@
 
 	<!-- Battle Axe -->
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>ESCP_Dwemer_Waraxe</defName>		<!-- unique -->
+		<defName>ESCP_DwemerWaraxe</defName>		<!-- unique -->
 		<label>dwemer war axe</label>
 		<description>A dwemer war axe.</description>		<!-- inspiration -->
 		<graphicData>
@@ -327,5 +327,195 @@
 			</skillRequirements>
 		</recipeMaker>
 	</ThingDef>
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>ESCP_DwemerSpear</defName>
+		<label>dwemer spear</label>
+		<description>A dwemer polearm tipped with a sharp point for stabbing opponents.</description>
+		<graphicData>
+			<texPath>Things/Items/Weapons/Dwemer_Spear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<weaponTags>
+			<li>NeolithicMeleeAdvanced</li>
+			<li>MedievalMeleeAdvanced</li>
+			<li>Spear</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<costStuffCount>75</costStuffCount>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<equippedAngleOffset>-25</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>shaft</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>23</power>
+				<armorPenetration>0.50</armorPenetration>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+	</ThingDef>
+	<ThingDef ParentName="BaseWeaponNeolithic">
+		<defName>ESCP_DwemerBow</defName>
+		<label>dwemer bow</label>
+		<description>A dwemer bow. Its construction behaves like a tuned spring, storing energy more efficiently and delivering a faster shot.</description>
+		<graphicData>
+			<texPath>Things/Items/Weapons/Dwemer_Bow</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Bow_Recurve</soundInteract>
+		<costList>
+			<WoodLog>40</WoodLog>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>1.3</Mass>
+			<AccuracyTouch>0.70</AccuracyTouch>
+			<AccuracyShort>0.78</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>NeolithicRangedDecent</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Ranged</li>
+			<li>RangedLight</li>
+		</weaponClasses>
+		<recipeMaker>
+			<recipeUsers>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+			<researchPrerequisite>RecurveBow</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Arrow_Recurve</defaultProjectile>
+				<warmupTime>1.45</warmupTime>
+				<range>25.9</range>
+				<soundCast>Bow_Recurve</soundCast>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>limb</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	<ThingDef ParentName="BaseProjectileNeolithic">
+		<defName>Arrow_Recurve</defName>
+		<label>recurve bow arrow</label>
+		<graphicData>
+			<texPath>Things/Projectile/Arrow_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>ArrowHighVelocity</damageDef>
+			<damageAmountBase>14</damageAmountBase>
+			<stoppingPower>1</stoppingPower>
+			<speed>56</speed>
+		</projectile>
+	</ThingDef>
 
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>ESCP_DwemerClaymore</defName>
+		<label>dwemer claymore</label>
+		<description>The dwemer claymore.</description>
+		<graphicData>
+			<texPath>Things/Items/Weapons/Dwemer_Claymore</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<weaponTags>
+			<li>MedievalMeleeAdvanced</li>
+			<li>LongSword</li>
+		</weaponTags>
+		<costStuffCount>100</costStuffCount>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<statBases>
+			<WorkToMake>18000</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<relicChance>2</relicChance>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>23</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>23</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+	</ThingDef>
 </Defs>

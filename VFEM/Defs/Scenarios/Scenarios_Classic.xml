@@ -23,7 +23,7 @@
           <structureLabel>Dwemer fortress</structureLabel>
           <nearMapCenter>True</nearMapCenter>
           <chooseFrom>
-            <li>ESCPTestRoom</li>
+            <li>ESCP_DwemerFortress</li>
           </chooseFrom>
         </li>
         <!-- Player starting stuff spawn method-->

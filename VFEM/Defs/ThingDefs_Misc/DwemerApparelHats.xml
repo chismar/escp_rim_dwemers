@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>ESCP_DwemerHatBlue</defName>
+    <label>blue dwemer hat</label>
+    <description>Blue dwemer hat.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Hats/DwemerCapA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.15</uiIconScale>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>0.1</Mass>
+      <EquipDelay>0.8</EquipDelay>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.2</SocialImpact>
+    </equippedStatOffsets>
+    <costList>
+      <Cloth>40</Cloth>
+      <ESCP_DwemerMetal>5</ESCP_DwemerMetal>
+    </costList>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/Hats/DwemerCapA</wornGraphicPath>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>BestowerHood</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>ESCP_DwemerHatRed</defName>
+    <label>red dwemer hat</label>
+    <description>Red dwemer hat.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Hats/DwemerCapB</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.15</uiIconScale>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>0.1</Mass>
+      <EquipDelay>0.8</EquipDelay>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.2</SocialImpact>
+    </equippedStatOffsets>
+    <costStuffCount>50</costStuffCount>
+    <costList>
+      <Cloth>40</Cloth>
+      <ESCP_DwemerMetal>5</ESCP_DwemerMetal>
+    </costList>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/Hats/DwemerCapB</wornGraphicPath>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>BestowerHood</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>ESCP_DwemerHatStuffable</defName>
+    <label>dwemer hat</label>
+    <description>Dwemer hat.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Hats/DwemerCapC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.15</uiIconScale>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>0.1</Mass>
+      <EquipDelay>0.8</EquipDelay>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.2</SocialImpact>
+    </equippedStatOffsets>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costList>
+      <ESCP_DwemerMetal>5</ESCP_DwemerMetal>
+    </costList>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/Hats/DwemerCapC</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>BestowerHood</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>ESCP_DwemerCirclet</defName>
+    <label>dwemer circlet</label>
+    <description>A small dwemer circlet.</description>
+    <smeltable>true</smeltable>
+    <thingCategories>
+      <li>HeadgearNoble</li>
+    </thingCategories>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <defaultIngredientFilter>
+        <categories>
+          <li>Root</li>
+        </categories>
+        <disallowedThingDefs>
+          <li>Jade</li>
+          <li>Uranium</li>
+        </disallowedThingDefs>
+      </defaultIngredientFilter>
+      <researchPrerequisite>RoyalApparel</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Apparel/Hats/DwemerCirclet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.8, 0.8)</drawSize>
+    </graphicData>
+    <uiIconScale>1.15</uiIconScale>
+    <costList>
+      <ESCP_DwemerMetal>50</ESCP_DwemerMetal>
+      <Gold>10</Gold>
+    </costList>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>0.7</Mass>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.2</SocialImpact>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Hats/DwemerCirclet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Royal</li>
+        <li>RoyalTier5</li>
+      </tags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+  </ThingDef>
+</Defs>

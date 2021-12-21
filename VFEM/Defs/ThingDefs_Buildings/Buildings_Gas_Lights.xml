@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="LampBase">
+		<defName>ESCP_DwemerGasSunLamp</defName>
+		<label>dwemer gas sun lamp</label>
+		<description>A dwemer lamp which lights an area brightly enough to grow crops, but consumes a medium amount of geothermal gas. Automatically turns itself off at night.</description>
+		<thingClass>Building_SunLamp</thingClass>
+		<graphicData>
+			<texPath>Buildings/Lights/DwemerSteamGasSunLamp</texPath>
+		</graphicData>
+		<blockWind>true</blockWind>
+		<tickerType>Rare</tickerType>
+		<statBases>
+			<WorkToBuild>330</WorkToBuild>
+			<Mass>4.5</Mass>
+		</statBases>
+		<costList>
+			<Steel>50</Steel>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<overlightRadius>7.0</overlightRadius>
+				<glowRadius>14</glowRadius>
+				<glowColor>(90,140,90,0)</glowColor>
+			</li>
+			<li Class="GasNetwork.CompProperties_GasTrader">
+				<compClass>GasNetwork.CompGasTrader</compClass>
+				<gasConsumption>25</gasConsumption>
+			</li>
+			<li Class="CompProperties_Schedule">
+				<!-- Match plant growing times -->
+				<startTime>0.25</startTime>
+				<endTime>0.8</endTime>
+				<offMessage>Off for plant resting period</offMessage>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>GasNetwork.CompGasHeatPusher</compClass>
+				<heatPerSecond>3</heatPerSecond>
+			</li>
+		</comps>
+		<!-- Determined by trial and error
+    This value isn't perfect because these radii use different algorithms
+    but it matches in this case-->
+		<specialDisplayRadius>5.8</specialDisplayRadius>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<researchPrerequisites>
+			<li>VFE_GasExtraction</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="StandingLampBase">
+		<defName>ESCP_DwemerGasLamp</defName>
+		<label>dwemer standing gas lamp</label>
+		<graphicData>
+			<texPath>Buildings/Lights/DwemerSteamGasLamp</texPath>
+		</graphicData>
+		<description>A gas-powered standing lamp that lights an area. People need light to move and work at full speed. Needs to be connected to the helixien gas network. Can be safely placed outdoors.</description>
+		<comps Inherit='False'>
+			<li Class="CompProperties_Glower">
+				<glowRadius>12</glowRadius>
+				<glowColor>(90,140,90,0)</glowColor>
+			</li>
+			<li Class="GasNetwork.CompProperties_GasTrader">
+				<compClass>GasNetwork.CompGasTrader</compClass>
+				<gasConsumption>1</gasConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<researchPrerequisites Inherit='False'>
+			<li>VFE_GasExtraction</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="StandingLampBase">
+		<defName>ESCP_DwemerGasWallLight</defName>
+		<label>dwemer gas wall light</label>
+		<graphicData>
+			<texPath>Buildings/Lights/DwemerSteamGasWallLight</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shadowData>
+				<volume>(0, 0, 0)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<description>A gas-powered wall light that lights an area. People need light to move and work at full speed. Needs to be connected to the helixien gas network. Can be safely placed outdoors.</description>
+		<comps Inherit='False'>
+			<li Class="CompProperties_Glower">
+				<glowRadius>9</glowRadius>
+				<glowColor>(90,140,90,0)</glowColor>
+			</li>
+			<li Class="GasNetwork.CompProperties_GasTrader">
+				<compClass>GasNetwork.CompGasTrader</compClass>
+				<gasConsumption>1</gasConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<building>
+			<isEdifice>false</isEdifice>
+			<canPlaceOverWall>true</canPlaceOverWall>
+		</building>
+		<rotatable>true</rotatable>
+		<clearBuildingArea>false</clearBuildingArea>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<researchPrerequisites Inherit='False'>
+			<li>VFE_GasExtraction</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+
+	<ThingDef ParentName="StandingLampBase">
+		<defName>ESCP_DwemerGasFloodLight</defName>
+		<label>gas floodlight</label>
+		<description>A gas-powered tall floodlight that lights a massive area. People need light to move and work at full speed. It doesn’t shine bright enough to grow crops. Needs to be connected to the helixien gas network. Can be safely placed outdoors.</description>
+		<graphicData>
+			<texPath>Buildings/Lights/DwemerSteamGasFloodlight</texPath>
+			<drawSize>(2,3.5)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>80</Steel>
+		</costList>
+		<comps Inherit='False'>
+			<li Class="CompProperties_Glower">
+				<glowRadius>24</glowRadius>
+				<glowColor>(90,140,90,0)</glowColor>
+			</li>
+			<li Class="GasNetwork.CompProperties_GasTrader">
+				<compClass>GasNetwork.CompGasTrader</compClass>
+				<gasConsumption>10</gasConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<researchPrerequisites Inherit='False'>
+			<li>VFE_GasExtraction</li>
+		</researchPrerequisites>
+		<uiIconOffset>(0, 0.2)</uiIconOffset>
+	</ThingDef>
+
+</Defs>
